@@ -1,0 +1,5 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /Users/darwinmorris/Kruft/theory/tagless-final/submission/finally-tagless-scala/src/test/scala/PartialEvaluatorTests.scala:4:20 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m4 |[0m[33mimport[0m taglessFinal.PECode.*[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m       ^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m       value PECode is not a member of taglessFinal[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

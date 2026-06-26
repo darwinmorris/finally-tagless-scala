@@ -1,0 +1,55 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(taglessFinal.CBNTests, org.scalatest.tools.Framework$$anon$1@7a97f206, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(taglessFinal.CompilerTests, org.scalatest.tools.Framework$$anon$1@7a97f206, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(taglessFinal.FinalProposalTests, org.scalatest.tools.Framework$$anon$1@7a97f206, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(taglessFinal.TagProblemTests, org.scalatest.tools.Framework$$anon$1@7a97f206, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(taglessFinal.PartialEvaluatorTests, org.scalatest.tools.Framework$$anon$1@7a97f206, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(taglessFinal.SymanticsTests, org.scalatest.tools.Framework$$anon$1@7a97f206, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCBNTests:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- CBN CPS evaluates identity application[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- CBN CPS evaluates arithmetic[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFinalProposalTests:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- testf1 evaluates (lambda x. x) true to true[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- varZ reads the innermost variable[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- varS reads from the outer environment[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- lambda applies its body with extended environment[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- application applies function term to argument term[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- CBN CPS evaluates conditionals[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- CBN CPS does not evaluate unused divergent argument[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPartialEvaluatorTests:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- partial evaluator statically evaluates addition[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- partial evaluator eliminates addition by zero[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- partial evaluator eliminates multiplication by one[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- partial evaluator chooses statically known if branch[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- partial evaluator beta-reduces identity application[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- partial evaluator residualizes dynamic addition[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- partial evaluator simplifies dynamic addition by zero[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- partial evaluator beta-reduces with dynamic argument[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTagProblemTests:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- test1 evaluates to true[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- applying a boolean as a function fails at runtime[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- evaluating an open term fails at runtime[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- lookup finds innermost variable[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- lookup finds outer variable[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompilerTests:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- compiler produces code for identity application[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- compiler produces code for arithmetic expression[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- compiler uses fresh names for nested lambdas[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSymanticsTests:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Id interpreter evaluates arithmetic[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Id interpreter evaluates lambda application[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Id interpreter evaluates if expression[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Size interpreter counts arithmetic constructors[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Size interpreter counts lambda application constructors[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Size interpreter counts if expression constructors[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 159 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 31[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 6, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 31, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	taglessFinal.SymanticsTests[0m
+[0m[[0m[0mdebug[0m] [0m[0m	taglessFinal.CBNTests[0m
+[0m[[0m[0mdebug[0m] [0m[0m	taglessFinal.CompilerTests[0m
+[0m[[0m[0mdebug[0m] [0m[0m	taglessFinal.TagProblemTests[0m
+[0m[[0m[0mdebug[0m] [0m[0m	taglessFinal.PartialEvaluatorTests[0m
+[0m[[0m[0mdebug[0m] [0m[0m	taglessFinal.FinalProposalTests[0m
